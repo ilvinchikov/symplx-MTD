@@ -1,0 +1,37 @@
+<html>
+<head>
+    <script language="JavaScript" type="text/javascript" src="sympx-MTD.js"</script>
+    </script>
+<title>
+    Симплекс метод (по секретным документам)
+</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <p>
+                <label for="vars">Количество переменных:</label>
+                <input type="text" id="vars" name="vars" value="3" size="8" onchange="butclick();" oninput="butclick();"><br>
+            </p>
+            <p>
+                <label for="lim">Количество ограничений:</label>
+                <input type="text" id="lim" name="lim" value="3" size="8" onchange="butclick();" oninput="butclick();"> <br>
+            </p>
+        </div>
+        <button onclick="butclick();" style="background-color:rgb(255, 0, 0); color: rgb(255, 255, 255); margin-bottom:10px;"> Применить </button>
+        <div id="container"></div>
+        <div id="answer"></div>
+    </form>
+</body>
+
+
+</html>
+<!-- расширения:
+ https://student-labs.kernel-dev.ru/
+ Live Server 
+ Russian Language Pack for Visual Studio Code
+ ESLint
+ JavaScript (ES6) code snippets
+ JavaScript and TypeScript Nightly
+ -->
