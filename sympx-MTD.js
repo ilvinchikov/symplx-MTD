@@ -272,7 +272,7 @@ function main() {
             if (arr_AllValuesOf_F[k] === Math.round(F)) F_counter++;
         }
         if (F_counter > 10) {
-            NoAnswer("infinity cycle has been destroyed.");
+            NoAnswer("Infinity.");
             return 0;
         }
         F_counter = 0;
